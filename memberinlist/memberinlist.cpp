@@ -19,17 +19,8 @@ public:
     }
 };
 
+int main() {
+    mahasiswa mhs(12, "Anjani", 90.5);
 
-
-
-
-
-
-
-
-
-
-int main()
-{
-    
+    return 0;
 }
