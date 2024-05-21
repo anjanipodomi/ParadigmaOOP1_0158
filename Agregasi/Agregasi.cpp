@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <vector>
 using namespace std;
 
 #include "anak.h"
@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-	ibu* varIbu = new ibu("rahmi");
-	ibu* varIbu2 = new ibu("aming");
+	Ibu* varIbu = new Ibu("rahmi");
+	Ibu* varIbu2 = new Ibu("aming");
 	anak* varAnak1 = new anak("Yumi");
 	anak* varAnak2 = new anak("Lily");
 	anak* varAnak3 = new anak("Zidan");
